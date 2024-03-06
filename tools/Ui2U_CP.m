@@ -1,12 +1,11 @@
 function U = Ui2U_CP(Ui)
-% Ui2U  Merge all the core factors in tensor ring regression into its original
+% Ui2U  Merge all the core factors in CP format into its original
 % tensor.
 %  Input:
-%       Ui: the core factors in the TR decomposition
+%       Ui: the core factors in the CP decomposition
 %  Output:
 %       U: the origin tensor
-%Tensor Ring Ridge Regression
-%Copyright 2019
+ 
 %
 
 d = length(Ui); % dimension
