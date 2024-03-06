@@ -1,12 +1,10 @@
 function U = Ui_kron(Ui)
-% Ui2U  Merge all the core factors in tensor ring regression into its original
-% tensor.
+% Ui_kron  the kron product of CP factors.
 %  Input:
-%       Ui: the core factors in the TR decomposition
+%       Ui: the core factors in the CP decomposition
 %  Output:
-%       U: the origin tensor
-%Tensor Ring Ridge Regression
-%Copyright 2019
+%       U: the kron product of Ui
+ 
 %
 
 d = length(Ui); % dimension
