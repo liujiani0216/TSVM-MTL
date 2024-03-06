@@ -24,7 +24,7 @@ MATLAB Tensor Toolbox 2.6 (http://www.sandia.gov/~tgkolda/TensorToolbox/)
      reg/demo_tensor_mti_svr.m % test the tLSSVR-MTL for regression
 
 where the data used in these experiments is stored in data folder
-   
+
      simulate_cla_data_40.mat % data used for classification, SNR=40
      
      simulate_data_20.mat  % data used for regression, SNR=20
